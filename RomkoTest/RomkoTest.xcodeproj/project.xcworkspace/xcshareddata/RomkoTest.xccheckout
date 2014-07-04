@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E629505E-A187-4F5B-9B76-D1A9A7BB0AC9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RomkoTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>27FBC528-5D10-4061-A64F-123A7F20447D</key>
+		<string>https://github.com/romanandruseiko/RomkoTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RomkoTest/RomkoTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>27FBC528-5D10-4061-A64F-123A7F20447D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/romanandruseiko/RomkoTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>27FBC528-5D10-4061-A64F-123A7F20447D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>27FBC528-5D10-4061-A64F-123A7F20447D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RomkoTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC16E69B1966F57100A39773 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC16E69A1966F57100A39773 /* Foundation.framework */; };
+		BC16E69D1966F57100A39773 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC16E69C1966F57100A39773 /* CoreGraphics.framework */; };
+		BC16E69F1966F57100A39773 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC16E69E1966F57100A39773 /* UIKit.framework */; };
+		BC16E6A51966F57100A39773 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC16E6A31966F57100A39773 /* InfoPlist.strings */; };
+		BC16E6A71966F57100A39773 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC16E6A61966F57100A39773 /* main.m */; };
+		BC16E6AB1966F57100A39773 /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC16E6AA1966F57100A39773 /* RTAppDelegate.m */; };
+		BC16E6AE1966F57100A39773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC16E6AC1966F57100A39773 /* Main.storyboard */; };
+		BC16E6B11966F57100A39773 /* RTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC16E6B01966F57100A39773 /* RTViewController.m */; };
+		BC16E6B31966F57100A39773 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC16E6B21966F57100A39773 /* Images.xcassets */; };
+		BC16E6BA1966F57100A39773 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC16E6B91966F57100A39773 /* XCTest.framework */; };
+		BC16E6BB1966F57100A39773 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC16E69A1966F57100A39773 /* Foundation.framework */; };
+		BC16E6BC1966F57100A39773 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC16E69E1966F57100A39773 /* UIKit.framework */; };
+		BC16E6C41966F57100A39773 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC16E6C21966F57100A39773 /* InfoPlist.strings */; };
+		BC16E6C61966F57100A39773 /* RomkoTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC16E6C51966F57100A39773 /* RomkoTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC16E6BD1966F57100A39773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC16E68F1966F57100A39773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC16E6961966F57100A39773;
+			remoteInfo = RomkoTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC16E6971966F57100A39773 /* RomkoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomkoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC16E69A1966F57100A39773 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC16E69C1966F57100A39773 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC16E69E1966F57100A39773 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC16E6A21966F57100A39773 /* RomkoTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RomkoTest-Info.plist"; sourceTree = "<group>"; };
+		BC16E6A41966F57100A39773 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC16E6A61966F57100A39773 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC16E6A81966F57100A39773 /* RomkoTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RomkoTest-Prefix.pch"; sourceTree = "<group>"; };
+		BC16E6A91966F57100A39773 /* RTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTAppDelegate.h; sourceTree = "<group>"; };
+		BC16E6AA1966F57100A39773 /* RTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTAppDelegate.m; sourceTree = "<group>"; };
+		BC16E6AD1966F57100A39773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC16E6AF1966F57100A39773 /* RTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTViewController.h; sourceTree = "<group>"; };
+		BC16E6B01966F57100A39773 /* RTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTViewController.m; sourceTree = "<group>"; };
+		BC16E6B21966F57100A39773 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC16E6B81966F57100A39773 /* RomkoTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomkoTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC16E6B91966F57100A39773 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BC16E6C11966F57100A39773 /* RomkoTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RomkoTestTests-Info.plist"; sourceTree = "<group>"; };
+		BC16E6C31966F57100A39773 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC16E6C51966F57100A39773 /* RomkoTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RomkoTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC16E6941966F57100A39773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC16E69D1966F57100A39773 /* CoreGraphics.framework in Frameworks */,
+				BC16E69F1966F57100A39773 /* UIKit.framework in Frameworks */,
+				BC16E69B1966F57100A39773 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC16E6B51966F57100A39773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC16E6BA1966F57100A39773 /* XCTest.framework in Frameworks */,
+				BC16E6BC1966F57100A39773 /* UIKit.framework in Frameworks */,
+				BC16E6BB1966F57100A39773 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC16E68E1966F57100A39773 = {
+			isa = PBXGroup;
+			children = (
+				BC16E6A01966F57100A39773 /* RomkoTest */,
+				BC16E6BF1966F57100A39773 /* RomkoTestTests */,
+				BC16E6991966F57100A39773 /* Frameworks */,
+				BC16E6981966F57100A39773 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC16E6981966F57100A39773 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC16E6971966F57100A39773 /* RomkoTest.app */,
+				BC16E6B81966F57100A39773 /* RomkoTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC16E6991966F57100A39773 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC16E69A1966F57100A39773 /* Foundation.framework */,
+				BC16E69C1966F57100A39773 /* CoreGraphics.framework */,
+				BC16E69E1966F57100A39773 /* UIKit.framework */,
+				BC16E6B91966F57100A39773 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC16E6A01966F57100A39773 /* RomkoTest */ = {
+			isa = PBXGroup;
+			children = (
+				BC16E6A91966F57100A39773 /* RTAppDelegate.h */,
+				BC16E6AA1966F57100A39773 /* RTAppDelegate.m */,
+				BC16E6AC1966F57100A39773 /* Main.storyboard */,
+				BC16E6AF1966F57100A39773 /* RTViewController.h */,
+				BC16E6B01966F57100A39773 /* RTViewController.m */,
+				BC16E6B21966F57100A39773 /* Images.xcassets */,
+				BC16E6A11966F57100A39773 /* Supporting Files */,
+			);
+			path = RomkoTest;
+			sourceTree = "<group>";
+		};
+		BC16E6A11966F57100A39773 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC16E6A21966F57100A39773 /* RomkoTest-Info.plist */,
+				BC16E6A31966F57100A39773 /* InfoPlist.strings */,
+				BC16E6A61966F57100A39773 /* main.m */,
+				BC16E6A81966F57100A39773 /* RomkoTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC16E6BF1966F57100A39773 /* RomkoTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC16E6C51966F57100A39773 /* RomkoTestTests.m */,
+				BC16E6C01966F57100A39773 /* Supporting Files */,
+			);
+			path = RomkoTestTests;
+			sourceTree = "<group>";
+		};
+		BC16E6C01966F57100A39773 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC16E6C11966F57100A39773 /* RomkoTestTests-Info.plist */,
+				BC16E6C21966F57100A39773 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC16E6961966F57100A39773 /* RomkoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC16E6C91966F57100A39773 /* Build configuration list for PBXNativeTarget "RomkoTest" */;
+			buildPhases = (
+				BC16E6931966F57100A39773 /* Sources */,
+				BC16E6941966F57100A39773 /* Frameworks */,
+				BC16E6951966F57100A39773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RomkoTest;
+			productName = RomkoTest;
+			productReference = BC16E6971966F57100A39773 /* RomkoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC16E6B71966F57100A39773 /* RomkoTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC16E6CC1966F57100A39773 /* Build configuration list for PBXNativeTarget "RomkoTestTests" */;
+			buildPhases = (
+				BC16E6B41966F57100A39773 /* Sources */,
+				BC16E6B51966F57100A39773 /* Frameworks */,
+				BC16E6B61966F57100A39773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC16E6BE1966F57100A39773 /* PBXTargetDependency */,
+			);
+			name = RomkoTestTests;
+			productName = RomkoTestTests;
+			productReference = BC16E6B81966F57100A39773 /* RomkoTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC16E68F1966F57100A39773 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RT;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					BC16E6B71966F57100A39773 = {
+						TestTargetID = BC16E6961966F57100A39773;
+					};
+				};
+			};
+			buildConfigurationList = BC16E6921966F57100A39773 /* Build configuration list for PBXProject "RomkoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC16E68E1966F57100A39773;
+			productRefGroup = BC16E6981966F57100A39773 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC16E6961966F57100A39773 /* RomkoTest */,
+				BC16E6B71966F57100A39773 /* RomkoTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC16E6951966F57100A39773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC16E6B31966F57100A39773 /* Images.xcassets in Resources */,
+				BC16E6A51966F57100A39773 /* InfoPlist.strings in Resources */,
+				BC16E6AE1966F57100A39773 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC16E6B61966F57100A39773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC16E6C41966F57100A39773 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC16E6931966F57100A39773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC16E6AB1966F57100A39773 /* RTAppDelegate.m in Sources */,
+				BC16E6B11966F57100A39773 /* RTViewController.m in Sources */,
+				BC16E6A71966F57100A39773 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC16E6B41966F57100A39773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC16E6C61966F57100A39773 /* RomkoTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC16E6BE1966F57100A39773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC16E6961966F57100A39773 /* RomkoTest */;
+			targetProxy = BC16E6BD1966F57100A39773 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC16E6A31966F57100A39773 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC16E6A41966F57100A39773 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC16E6AC1966F57100A39773 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC16E6AD1966F57100A39773 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC16E6C21966F57100A39773 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC16E6C31966F57100A39773 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC16E6C71966F57100A39773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC16E6C81966F57100A39773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC16E6CA1966F57100A39773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RomkoTest/RomkoTest-Prefix.pch";
+				INFOPLIST_FILE = "RomkoTest/RomkoTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC16E6CB1966F57100A39773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RomkoTest/RomkoTest-Prefix.pch";
+				INFOPLIST_FILE = "RomkoTest/RomkoTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC16E6CD1966F57100A39773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RomkoTest.app/RomkoTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RomkoTest/RomkoTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RomkoTestTests/RomkoTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BC16E6CE1966F57100A39773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RomkoTest.app/RomkoTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RomkoTest/RomkoTest-Prefix.pch";
+				INFOPLIST_FILE = "RomkoTestTests/RomkoTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC16E6921966F57100A39773 /* Build configuration list for PBXProject "RomkoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC16E6C71966F57100A39773 /* Debug */,
+				BC16E6C81966F57100A39773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC16E6C91966F57100A39773 /* Build configuration list for PBXNativeTarget "RomkoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC16E6CA1966F57100A39773 /* Debug */,
+				BC16E6CB1966F57100A39773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC16E6CC1966F57100A39773 /* Build configuration list for PBXNativeTarget "RomkoTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC16E6CD1966F57100A39773 /* Debug */,
+				BC16E6CE1966F57100A39773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC16E68F1966F57100A39773 /* Project object */;
+}
